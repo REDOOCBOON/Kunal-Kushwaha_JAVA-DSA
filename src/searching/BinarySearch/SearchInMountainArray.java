@@ -1,6 +1,8 @@
 package searching.BinarySearch;
 //https://leetcode.com/problems/peak-index-in-a-mountain-array/
-public class MountainArray {
+
+//https://leetcode.com/problems/find-in-mountain-array/description/
+public class SearchInMountainArray {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,6,4,3,2};
         int ans = peakIndexInMountainArray(arr);
