@@ -1,3 +1,7 @@
 this is a test file for synchronous workflow
 
 now this is the test on my mac
+
+lets make today's log
+today is 17th jully 2026
+starting the assignment of k
