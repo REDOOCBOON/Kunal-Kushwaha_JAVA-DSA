@@ -14,7 +14,7 @@ public class Fibonacci {
     public static void Fibonaccii(int n){
         int a=0;
         int b=1;
-        for(int i=2;i<n;i++){
+        for(int i=0;i<n;i++){
 
             int temp=b+a;
             System.out.print(temp+" ");
