@@ -1,8 +1,9 @@
+package assignments.conditional_loops;
+
 import java.util.Scanner;
 
-public class Fibonacci {
+public class fibonaaci {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the Fibonacci index: ");
