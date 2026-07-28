@@ -1,0 +1,83 @@
+What is ArrayList?
+ArrayList is a class in Java’s java.util package.
+
+It implements the List interface.
+
+It’s a resizable array — unlike normal arrays, its size can grow or shrink dynamically.
+
+🔹 Syntax
+java
+ArrayList<Type> list = new ArrayList<>();
+Type → the type of elements you want to store (e.g., Integer, String, Double).
+
+new ArrayList<>() → creates a new empty list object in memory.
+
+Example:
+
+java
+ArrayList<String> names = new ArrayList<>();
+This creates an empty list that can hold String values.
+
+🔹 Why <> (Diamond Operator)?
+Before Java 7, you had to repeat the type:
+
+java
+ArrayList<String> names = new ArrayList<String>();
+Since Java 7, you can just write:
+
+java
+ArrayList<String> names = new ArrayList<>();
+The compiler infers the type (String here) automatically.
+
+🔹 Key Features
+Dynamic resizing: No need to specify size upfront.
+
+Indexed access: You can access elements by index like arrays.
+
+Allows duplicates: Unlike sets, lists can store duplicate values.
+
+Maintains order: Elements stay in the order you insert them.
+
+
+
+Common Methods
+Method	Description	Example
+add(E e)	Adds element	list.add("Hello")
+get(int index)	Retrieves element	list.get(0)
+set(int index, E e)	Updates element	list.set(0, "Hi")
+remove(int index)	Removes element	list.remove(0)
+size()	Returns number of elements	list.size()
+contains(Object o)	Checks if element exists	list.contains("Hi")
+clear()	Removes all elements	list.clear()
+
+
+🔹 Example Program
+
+import java.util.ArrayList;
+
+public class Demo {
+    public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+
+        System.out.println(numbers);       // [10, 20, 30]
+        System.out.println(numbers.get(1)); // 20
+        numbers.remove(0);
+        System.out.println(numbers);       // [20, 30]
+    }
+}
+
+
+
+Visualizing ArrayList
+Think of it like a flexible container:
+
+Start empty: []
+
+Add items: [10] → [10, 20] → [10, 20, 30]
+
+Remove items: [20, 30]
+
