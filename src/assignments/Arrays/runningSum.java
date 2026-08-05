@@ -1,5 +1,5 @@
 package assignments.Arrays;
-
+//
 public class runningSum {
     public int[] runningSum(int[] nums) {
         int sum=0;

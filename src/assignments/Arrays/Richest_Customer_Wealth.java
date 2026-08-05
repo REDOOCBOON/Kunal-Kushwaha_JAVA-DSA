@@ -1,5 +1,5 @@
 package assignments.Arrays;
-
+///https://leetcode.com/problems/richest-customer-wealth/
 public class Richest_Customer_Wealth {
     public int maximumWealth(int[][] accounts) {
         int maxWealth=0;

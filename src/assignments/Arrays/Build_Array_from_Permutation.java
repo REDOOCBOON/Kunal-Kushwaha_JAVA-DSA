@@ -2,7 +2,7 @@ package assignments.Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+//https://leetcode.com/problems/build-array-from-permutation/
 public class Build_Array_from_Permutation {
     public int[] buildArray(int[] nums) {
         int k = nums.length;
