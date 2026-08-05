@@ -8,7 +8,7 @@ public class CreateTargetInGivenOrder {
     public int[] createTargetArray(int[] nums, int[] index) {
         List<Integer> list = new ArrayList<>();
         for(int i=0;i<nums.length;i++){
-            list.add(index[i],nums[i]) // add me pehle index ayega fir target
+            list.add(index[i],nums[i]) ;// add me pehle index ayega fir target
         }
         //converting list to int[]
         int[] res = new int[list.size()];
